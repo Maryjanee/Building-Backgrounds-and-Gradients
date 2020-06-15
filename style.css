@@ -1,0 +1,12 @@
+:root {
+  --white: #fff;
+  --grey: #6e6e6e;
+  --blue: #08c;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: "Noto Sans", sans-serif;
+}
