@@ -10,3 +10,48 @@
   box-sizing: border-box;
   font-weight: "Noto Sans", sans-serif;
 }
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+}
+
+.nav-bar {
+  position: absolute;
+  top: 6rem;
+  left: 9rem;
+  width: 75%;
+  border: 1px solid red;
+  padding: 0.2rem 0
+  ;
+  
+}
+
+.apple-logo {
+  width: 1.5rem;
+}
+
+.nav-bar li{
+  flex: 1;
+  text-align: center;
+  border: 1px solid green;
+}
+
+.nav-bar input {
+  width: 6.5rem;
+  border-radius: 0.8rem;
+  background-image: url(./assets/magnifying-glass.svg);
+  background-repeat: no-repeat;
+  background-position: 0.2rem;
+  background-size: 0.9rem;
+  padding: 0.1rem 1rem;
+ 
+}
