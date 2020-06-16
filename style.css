@@ -2,6 +2,7 @@
   --white: #fff;
   --grey: #6e6e6e;
   --blue: #08c;
+  --san-serif-font:  'Spartan', sans-serif;
 }
 
 * {
@@ -18,43 +19,99 @@
 
 li {
   list-style: none;
+  display: block;
 }
 
 a {
   text-decoration: none;
+  display: block;
 }
 
 .nav-bar {
   position: absolute;
-  top: 6rem;
-  left: 9rem;
+  top: 5rem;
+  left: 10rem;
   width: 75%;
-  border: 1px solid red;
-  padding: 0.2rem 0;
-  background: linear-gradient(
-
-  
-  )
-  
+  height: 1.8rem;
+ 
+  border-radius: 0.3rem;
+ 
+  background: linear-gradient(to bottom, #808080 50%, #666666 40%, #808080 100%);
 }
 
-.apple-logo {
-  width: 1.5rem;
+.icons {
+  width: 1.1rem;
 }
 
-.nav-bar li{
+.nav-bar li {
   flex: 1;
   text-align: center;
-  border: 1px solid green;
+  padding: 0.2rem 0;
+  border-right: 1px solid #8c8c8c;
+  
+}
+
+.nav-bar li a {
+  font-family: var(--san-serif-font);
+  color: var(--white);
+  font-size: 0.8rem;
+  font-weight: 300;
+  height: 100%;
+  padding: 0.2rem 0;
 }
 
 .nav-bar input {
+  background-image: url(./assets/magnifying-glass.svg),
+    linear-gradient(to bottom, #999999 50%, #8c8c8c 50%);
+  background-size: 0.9rem, cover;
+  background-position: 0.4rem, center;
+  background-repeat: no-repeat;
   width: 6.5rem;
   border-radius: 0.8rem;
-  background-image: url(./assets/magnifying-glass.svg);
-  background-repeat: no-repeat;
-  background-position: 0.2rem;
-  background-size: 0.9rem;
   padding: 0.1rem 1rem;
- 
+}
+
+.nav-bar:last-child {
+  padding-right: 1rem;
+}
+
+.hero-container {
+  width: 100%;
+  height: 35vw;
+  background-image: url(./assets/iceman.jpg);
+  background-position: cover;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  text-align: center;
+}
+.hero-container * {
+  color: var(--white);
+  font-family: var(--san-serif-font);
+  
+}
+
+ #hero-title {
+  font-family: var(--san-serif-font);
+  font-size: 3.3rem;
+  font-weight: 100;
+ }
+  
+
+ #hero-subtitle {
+  font-family: var(--san-serif-font);
+  font-weight: 300;
+  font-size: 1.5rem;
+  width: 65%;
+  margin: 0.8rem auto;
+}
+
+#hero-video-link {
+  font-family: var(--san-serif-font);
+  font-size: 1.4rem;
+  font-weight: 200;
+  justify-content: center;
+}
+#hero-video-link img {
+  margin-left: 0.5rem;
 }
