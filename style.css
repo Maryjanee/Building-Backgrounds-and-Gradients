@@ -45,7 +45,7 @@ a {
 .nav-bar li {
   flex: 1;
   text-align: center;
-  
+ 
   border-right: 1px solid #8c8c8c;
   
 }
@@ -60,6 +60,7 @@ a {
   font-size: 0.8rem;
   font-weight: 400;
   height: 100%;
+ 
   
 }
 
