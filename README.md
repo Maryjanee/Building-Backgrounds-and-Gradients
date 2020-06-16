@@ -1,21 +1,17 @@
 # Positioning-and-Floating-Elements
 
-![screenshot]()
+![screenshot](assets/capture.png)
 ​
-This project was created to strengthen our knowledge regarding flex-box, grid, floats and position. We had to clone a New York Times's article from scratch.
+This project was built to strengthen our Knowledge on using different backgrounds and background properties in CSS.
 ​
 
 ## Built With
-
-​
 
 - HTML
 - CSS
   ​
 
-## Live Demo
-
-​
+[Live Demo Link](https://boring-wescoff-fa0c72.netlify.app/)
 
 ​
 
@@ -62,6 +58,5 @@ Give a ⭐️ if you like this project!
 
 ## Acknowledgments
 
-​
-
-- New York Times
+- Apple Archive Page
+- The Odin Project
