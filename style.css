@@ -112,8 +112,9 @@ footer ul li:nth-child(8) {
 }
 
 .nav-bar input {
-  background-image: url(./assets/magnifying-glass.svg),
-  linear-gradient(to bottom, #808080 50%, #666 40%, #808080 100%);
+  background-image: 
+     url(./assets/magnifying-glass.svg),
+     linear-gradient(to bottom, #808080 50%, #666 40%, #808080 100%);
   background-size: 0.9rem, cover;
   background-position: 0.4rem, center;
   background-repeat: no-repeat;
