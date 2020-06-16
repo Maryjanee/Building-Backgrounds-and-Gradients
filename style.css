@@ -60,7 +60,7 @@ footer ul {
 
 footer ul li {
   padding: 0 0.4rem;
-  border-right: 1px solid #cccccc;
+  border-right: 1px solid #ccc;
 }
 
 footer ul li:nth-child(8) {
@@ -95,6 +95,11 @@ footer ul li:nth-child(8) {
   left: 10rem;
 }
 
+.nav-bar li:not(:last-child) {
+  border-right: 1px solid #595959;
+  box-shadow: inset 0 0 3px #999;
+}
+
 .nav-bar li:not(:last-child):hover {
   background: linear-gradient(
     to bottom,
@@ -102,11 +107,6 @@ footer ul li:nth-child(8) {
     #4d4d4d 40%,
     #595959 100%
   );
-}
-
-.nav-bar li:not(:last-child) {
-  border-right: 1px solid #595959;
-  box-shadow: inset 0 0 3px #999999;
 }
 
 .nav-bar li a {
