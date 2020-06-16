@@ -101,8 +101,7 @@ footer ul li:nth-child(8) {
 }
 
 .nav-bar li:not(:last-child):hover {
-  background: 
-  linear-gradient(to bottom,#595959 50%, #4d4d4d 40%, #595959 100%);
+  background: linear-gradient(to bottom,#595959 50%, #4d4d4d 40%, #595959 100%);
 }
 
 .nav-bar li a {
@@ -114,9 +113,12 @@ footer ul li:nth-child(8) {
 
 .nav-bar input {
   background-image: 
-  url(./assets/magnifying-glass.svg), linear-gradient(to bottom, #808080 50%, #666 40%,#808080 100%);
-  background-size: 0.9rem, cover;
-  background-position: 0.4rem, center;
+  url(./assets/magnifying-glass.svg), 
+  linear-gradient(to bottom, #808080 50%, #666 40%,#808080 100%);
+  background-size: 0.9rem, 
+  cover;
+  background-position: 0.4rem, 
+  center;
   background-repeat: no-repeat;
   width: 7rem;
   border-radius: 0.8rem;
