@@ -2,7 +2,8 @@
   --white: #fff;
   --grey: #6e6e6e;
   --blue: #08c;
-  --san-serif-font: "Montserrat", sans-serif;
+  --san-serif-font:  'Spartan', sans-serif;
+  --open-san-serif: ‘Open Sans’, sans-serif; 
 }
 
 * {
@@ -19,6 +20,7 @@
 
 li {
   list-style: none;
+  display: block;
 }
 
 a {
@@ -28,28 +30,37 @@ a {
 
 .nav-bar {
   position: absolute;
-  top: 6rem;
-  left: 15rem;
-  width: 65%;
-  padding: 0.2rem 0;
+  top: 5rem;
+  left: 10rem;
+  width: 75%;
+  height: 1.8rem;
   border-radius: 0.3rem;
-  background: linear-gradient(to bottom, #808080 50%, #666666 50%);
+  background: linear-gradient(to bottom, #808080 50%, #666666 40%, #808080 100%);
 }
 
 .icons {
-  width: 1.5rem;
+  width: 1.1rem;
 }
 
 .nav-bar li {
   flex: 1;
   text-align: center;
+  
+  border-right: 1px solid #8c8c8c;
+  
+}
+
+.nav-bar li:nth-child(1) {
+  height: 1.1rem;
 }
 
 .nav-bar li a {
   font-family: var(--san-serif-font);
   color: var(--white);
   font-size: 0.8rem;
-  border-right: 1px solid #8c8c8c;
+  font-weight: 400;
+  height: 100%;
+  
 }
 
 .nav-bar input {
@@ -80,4 +91,75 @@ a {
 .hero-container * {
   color: var(--white);
   font-family: var(--san-serif-font);
+  
+}
+
+ #hero-title {
+  font-family: var(--san-serif-font);
+  font-size: 3.3rem;
+  font-weight: 100;
+ }
+  
+
+ #hero-subtitle {
+  font-family: var(--san-serif-font);
+  font-weight: 300;
+  font-size: 1.5rem;
+  width: 65%;
+  margin: 0.8rem auto;
+}
+
+#hero-video-link {
+  font-family: var(--san-serif-font);
+  font-size: 1.4rem;
+  font-weight: 200;
+  justify-content: center;
+}
+#hero-video-link img {
+  margin-left: 0.5rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin-top: 0.15rem;
+}
+
+.image-grid img {
+  width: 20rem;
+  height: 12rem;
+}
+
+footer {
+ width: 80%;
+ margin: 0 auto;
+ flex-wrap: wrap;
+ margin-top: 1rem;
+}
+footer *{
+  font-family: var(--open-san-serif);
+  font-size: 0.65rem;
+  color: #808080;
+}
+
+footer a {
+  display: inline;
+  color: var(--blue);
+}
+
+footer p {
+  margin: 0.65rem 0.8rem;
+}
+
+footer ul {
+  margin-left: 4rem;
+}
+
+footer ul li {
+  padding: 0 0.4rem;
+  border-right: 1px solid #cccccc;
+}
+footer ul li:nth-child(8) {
+  border: none;
 }
