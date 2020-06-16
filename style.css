@@ -2,6 +2,7 @@
   --white: #fff;
   --grey: #6e6e6e;
   --blue: #08c;
+  --san-serif-font: "Noto Sans", sans-serif;
 }
 
 * {
@@ -29,29 +30,31 @@ a {
   top: 6rem;
   left: 9rem;
   width: 75%;
-  border: 1px solid red;
-  padding: 0.2rem 0
-  ;
-  
+
+  padding: 0.2rem 0;
+  background: linear-gradient(to bottom, #999999 50%, #8c8c8c 50%);
 }
 
 .apple-logo {
   width: 1.5rem;
 }
 
-.nav-bar li{
+.nav-bar li {
   flex: 1;
   text-align: center;
-  border: 1px solid green;
+}
+.nav-bar li a {
+  font-family: var(--san-serif-font);
+  color: var(--white);
 }
 
 .nav-bar input {
+  background-image: url(./assets/magnifying-glass.svg),
+    linear-gradient(to bottom, #999999 50%, #8c8c8c 50%);
+  background-size: 0.9rem, cover;
+  background-position: 0.4rem, center;
+  background-repeat: no-repeat;
   width: 6.5rem;
   border-radius: 0.8rem;
-  background-image: url(./assets/magnifying-glass.svg);
-  background-repeat: no-repeat;
-  background-position: 0.2rem;
-  background-size: 0.9rem;
   padding: 0.1rem 1rem;
- 
 }
