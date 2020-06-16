@@ -115,3 +115,15 @@ a {
 #hero-video-link img {
   margin-left: 0.5rem;
 }
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin-top: 0.15rem;
+}
+
+.image-grid img {
+  width: 20rem;
+  height: 12rem;
+}
