@@ -1,0 +1,203 @@
+:root {
+  --white: #fff;
+  --grey: #6e6e6e;
+  --blue: #08c;
+  --san-serif-font: "Spartan", sans-serif;
+  --open-san-serif: "open sans", sans-serif;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-weight: "Noto Sans", sans-serif;
+}
+
+.d-flex {
+  display: flex;
+  align-items: center;
+}
+
+li {
+  list-style: none;
+  display: block;
+}
+
+a {
+  text-decoration: none;
+  display: block;
+}
+
+footer {
+  width: 80%;
+  margin: 0 auto;
+  flex-wrap: wrap;
+  margin-top: 1rem;
+}
+
+footer * {
+  font-family: var(--open-san-serif);
+  font-size: 0.65rem;
+  color: #808080;
+}
+
+footer a {
+  display: inline;
+  color: var(--blue);
+}
+
+footer a:hover {
+  text-decoration: underline;
+}
+
+footer p {
+  margin: 0.65rem 0.8rem;
+}
+
+footer ul {
+  margin-left: 4rem;
+}
+
+footer ul li {
+  padding: 0 0.4rem;
+  border-right: 1px solid #ccc;
+}
+
+footer ul li:nth-child(8) {
+  border: none;
+}
+
+.icons {
+  width: 1.1rem;
+}
+
+.image-grid {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  width: 100%;
+  margin-top: 0.15rem;
+}
+
+.image-grid img {
+  width: 100%;
+  height: 12.5rem;
+}
+
+.nav-bar {
+  border-radius: 0.3rem;
+  background: linear-gradient(to bottom, #808080 50%, #666 40%, #808080 100%);
+  width: 75%;
+  position: absolute;
+  display: grid;
+  grid-template-columns: repeat(9, 1fr);
+  text-align: center;
+  top: 5rem;
+  left: 10rem;
+}
+
+.nav-bar li:not(:last-child) {
+  border-right: 1px solid #595959;
+  box-shadow: inset 0 0 3px #999;
+}
+
+.nav-bar li:not(:last-child):hover {
+  background-image:
+    linear-gradient(
+      to bottom,
+      #595959 50%,
+      #4d4d4d 40%,
+      #595959 100%
+    );
+}
+
+.nav-bar li a {
+  padding: 0.7rem 0;
+  font-size: 0.7rem;
+  color: var(--white);
+  font-family: var(--san-serif-font);
+}
+
+.nav-bar input {
+  background-image:
+    url(./assets/magnifying-glass.svg),
+    linear-gradient(
+      to bottom,
+<<<<<<< HEAD
+      #808080 50% , 
+=======
+      #808080 50%,
+>>>>>>> fef59e3884f5c5d02515c00489040a5b079caaeb
+      #666 40%,
+      #808080 100%
+    );
+  background-size: 0.9rem, cover;
+  background-position: 0.4rem, center;
+  background-repeat: no-repeat;
+  width: 7rem;
+  border-radius: 0.8rem;
+  padding: 0.1rem 1rem;
+  margin: 0 1.2rem;
+}
+
+.nav-bar input:focus {
+  border: 0;
+}
+
+.nav-bar li:first-child a {
+  padding: 0;
+  height: 36.375px;
+}
+
+.nav-bar li:first-child a img {
+  margin: 7% auto;
+}
+
+.navbar-input {
+  height: 100%;
+  padding-top: 0.5rem;
+}
+
+.hero-container {
+  width: 100%;
+  height: 40vw;
+  background-image: url(./assets/icemen.jpg);
+  background-position: bottom;
+  background-size: cover;
+  background-repeat: no-repeat;
+  justify-content: center;
+  text-align: center;
+}
+
+.hero-container * {
+  color: var(--white);
+  font-family: var(--san-serif-font);
+}
+
+#hero-title {
+  font-family: var(--san-serif-font);
+  font-size: 3.7rem;
+  font-weight: 100;
+}
+
+#hero-subtitle {
+  font-family: var(--san-serif-font);
+  font-weight: 300;
+  font-size: 1.5rem;
+  width: 65%;
+  margin: 1.7rem auto;
+}
+
+#hero-video-link {
+  font-family: var(--san-serif-font);
+  font-size: 1.5rem;
+  font-weight: 200;
+  justify-content: center;
+}
+
+#hero-video-link img {
+  margin-left: 0.5rem;
+}
+
+#hero-video-link:hover {
+  text-decoration: underline;
+}
